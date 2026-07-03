@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Philip Mello — Software Engineer, DevOps, Cloud and Automation portfolio CV." />
+    <meta name="theme-color" content="#f5f5f7" />
+
+    <meta property="og:title" content="Philip Mello — CV" />
+    <meta property="og:description" content="Software Engineer · DevOps · Cloud · Automation" />
+    <meta property="og:type" content="website" />
+
+    <title>Philip Mello — CV</title>
+
+    <link rel="preload" href="./assets/css/style.css" as="style" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/print.css" media="print" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="browser-shell" aria-hidden="true">
+      <div class="browser-topbar">
+        <div class="browser-dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="browser-address">philipmello.dev</div>
+        <div class="browser-actions">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header no-print">
+        <a class="brand" href="#top" aria-label="Go to top">
+          <span id="nav-name">Philip Mello</span>
+        </a>
+
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">Menu</span>
+        </button>
+
+        <nav id="nav-menu" class="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="main" class="main-content">
+        <section id="top" class="hero section-grid">
+          <div class="hero-copy">
+            <p class="eyebrow" id="profile-location">Lisbon, Portugal</p>
+            <h1 id="profile-title">Software Engineer · DevOps · Cloud · Automation</h1>
+            <p class="hero-summary" id="profile-summary">
+              Building reliable systems, developer tools, and scalable infrastructure.
+            </p>
+
+            <div class="hero-actions no-print">
+              <a class="button button-primary" href="#projects">
+                <span aria-hidden="true">▣</span>
+                View Projects
+              </a>
+              <button class="button button-secondary" type="button" data-print-button>
+                <span aria-hidden="true">⌘</span>
+                Print / Save as PDF
+              </button>
+            </div>
+
+            <div id="profile-links" class="profile-links no-print" aria-label="Profile links"></div>
+          </div>
+
+          <aside id="about" class="about-card glass-card" aria-labelledby="about-title">
+            <div class="card-icon" aria-hidden="true">⌁</div>
+            <div>
+              <p class="section-kicker">About</p>
+              <h2 id="about-title">About Me</h2>
+              <div id="about-text" class="about-text"></div>
+            </div>
+          </aside>
+        </section>
+
+        <section id="experience" class="section-block" aria-labelledby="experience-title">
+          <div class="section-heading">
+            <span class="heading-icon" aria-hidden="true">▤</span>
+            <div>
+              <p class="section-kicker">Career</p>
+              <h2 id="experience-title">Experience</h2>
+            </div>
+          </div>
+          <div id="experience-list" class="timeline"></div>
+        </section>
+
+        <section id="projects" class="section-block" aria-labelledby="projects-title">
+          <div class="section-heading">
+            <span class="heading-icon" aria-hidden="true">◇</span>
+            <div>
+              <p class="section-kicker">Portfolio</p>
+              <h2 id="projects-title">Selected Engineering Projects</h2>
+            </div>
+          </div>
+          <div id="project-list" class="project-grid"></div>
+        </section>
+
+        <section id="skills" class="section-block" aria-labelledby="skills-title">
+          <div class="section-heading">
+            <span class="heading-icon" aria-hidden="true">⌬</span>
+            <div>
+              <p class="section-kicker">Stack</p>
+              <h2 id="skills-title">Skills</h2>
+            </div>
+          </div>
+          <div id="skills-list" class="skills-grid"></div>
+        </section>
+
+        <section id="education" class="section-block" aria-labelledby="education-title">
+          <div class="section-heading">
+            <span class="heading-icon" aria-hidden="true">▧</span>
+            <div>
+              <p class="section-kicker">Credentials</p>
+              <h2 id="education-title">Education & Certifications</h2>
+            </div>
+          </div>
+          <div id="education-list" class="education-grid"></div>
+        </section>
+
+        <section id="languages" class="section-block compact-section" aria-labelledby="languages-title">
+          <div class="section-heading">
+            <span class="heading-icon" aria-hidden="true">◎</span>
+            <div>
+              <p class="section-kicker">Communication</p>
+              <h2 id="languages-title">Languages</h2>
+            </div>
+          </div>
+          <div id="languages-list" class="language-list"></div>
+        </section>
+      </main>
+
+      <footer id="contact" class="contact-card glass-card" aria-labelledby="contact-title">
+        <div class="contact-main">
+          <div class="card-icon" aria-hidden="true">✉</div>
+          <div>
+            <p class="section-kicker">Contact</p>
+            <h2 id="contact-title">Get in Touch</h2>
+            <p id="contact-summary">Open to new opportunities and interesting projects.</p>
+          </div>
+        </div>
+        <div id="contact-details" class="contact-details"></div>
+        <p class="copyright" id="copyright"></p>
+      </footer>
+    </div>
+
+    <noscript>
+      <div class="noscript-message">
+        This CV uses JavaScript to load content from <code>data/cv.json</code>.
+      </div>
+    </noscript>
+
+    <script src="./assets/js/app.js" defer></script>
+  </body>
+</html>

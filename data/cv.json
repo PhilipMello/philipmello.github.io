@@ -1,0 +1,502 @@
+{
+  "profile": {
+    "name": "Philip Mello",
+    "title": "Senior Linux Administrator · DevOps Cloud Engineer · Kubernetes Specialist",
+    "location": "Portugal",
+    "email": "philip@atomy.cloud",
+    "summary": "Senior Linux and DevOps professional with 15+ years of experience building, operating, troubleshooting, and automating cloud-native infrastructure across Linux, Kubernetes, AWS, Azure, and GCP environments.",
+    "about": [
+      "Senior Linux and DevOps professional with 15+ years of experience across enterprise support, Linux systems administration, cloud infrastructure, CI/CD, observability, and Kubernetes operations.",
+      "Experienced in building and operating production-grade platforms using Linux, Docker, Kubernetes, Terraform, reverse proxies, web middleware, databases, and multi-cloud services across AWS, Azure, and GCP.",
+      "Strong background in troubleshooting complex infrastructure issues, automating operational workflows, securing public endpoints, and supporting high-availability services for large enterprise environments."
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/philipmello",
+        "icon": "GitHub"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/atomycloud",
+        "icon": "GitHub"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/philip-mello/",
+        "icon": "LinkedIn"
+      },
+      {
+        "label": "Website",
+        "url": "https://clicke.me",
+        "icon": "Web"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "period": "Nov 2025 - Present",
+      "role": "DevOps Cloud Engineer",
+      "company": "Vodafone via Capgemini",
+      "location": "Lisbon, Portugal",
+      "mode": "AWS / EKS / IaC",
+      "description": [
+        "Designed and provisioned cloud infrastructure from scratch using Terraform as Infrastructure as Code, including Kubernetes/EKS foundations, VPC networking, bastion access, EC2, S3, and secure application connectivity.",
+        "Built and maintained Jenkins and Azure DevOps pipelines to automate CI/CD workflows for Vodafone applications and infrastructure updates.",
+        "Secured public application endpoints with Cloudflare WAF, using Terraform-managed configuration and controlled delivery through Azure Pipelines.",
+        "Operated Linux-based middleware and application environments involving HAProxy, Nginx, Apache HTTPD, Tomcat, MongoDB, PostgreSQL, Citrix, Datadog, AWS CodeCommit, Jupyter, GitHub Actions, and GitHub Pages.",
+        "Worked across AWS, Azure, and GCP environments, supporting cloud-native delivery, automation, and operational reliability."
+      ],
+      "tools": [
+        "Linux",
+        "Terraform",
+        "AWS",
+        "Azure",
+        "GCP",
+        "EKS",
+        "EC2",
+        "S3",
+        "VPC",
+        "Bastion",
+        "Jenkins",
+        "Azure DevOps",
+        "AWS CodeCommit",
+        "GitHub Actions",
+        "GitHub Pages",
+        "Cloudflare WAF",
+        "Datadog",
+        "HAProxy",
+        "Nginx",
+        "Apache",
+        "Tomcat",
+        "MongoDB",
+        "PostgreSQL",
+        "Citrix",
+        "Jupyter"
+      ]
+    },
+    {
+      "period": "Nov 2024 - Aug 2025",
+      "role": "DevOps Senior Engineer (Linux Focus)",
+      "company": "NOS via Capgemini",
+      "location": "Lisbon, Portugal",
+      "mode": "Linux / CI/CD / Observability",
+      "description": [
+        "Created and maintained deployment pipelines for new features, fixes, and channels on nostv.pt, supporting controlled delivery into production environments.",
+        "Monitored critical multimedia services, including set-top boxes and web platforms, investigating HTTP 4xx/5xx errors, service degradation, and application-level metrics.",
+        "Operated and troubleshot Linux server environments running HAProxy, Nginx, Apache HTTPD, Tomcat, MongoDB, PostgreSQL, Kubernetes, and Docker workloads.",
+        "Worked with Elastic Stack, OpenSearch, Grafana, Kibana, and the in-house alarmistic tool TheSys to support observability, incident analysis, and service availability.",
+        "Supported in-house CI/CD processes and cloud-connected infrastructure across AWS, Azure, and GCP contexts."
+      ],
+      "tools": [
+        "Linux",
+        "Elastic Stack",
+        "Elasticsearch",
+        "OpenSearch",
+        "Grafana",
+        "Kibana",
+        "TheSys",
+        "In-house CI/CD",
+        "HAProxy",
+        "Nginx",
+        "Apache",
+        "Tomcat",
+        "MongoDB",
+        "PostgreSQL",
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "Azure",
+        "GCP",
+        "HTTP 4xx/5xx Analysis"
+      ]
+    },
+    {
+      "period": "Nov 2023 - Aug 2024",
+      "role": "Azure Kubernetes Engineer",
+      "company": "Microsoft via Mind Source",
+      "location": "Remote / Global Support",
+      "mode": "AKS / Follow-the-Sun",
+      "description": [
+        "Provided global support for Microsoft Azure Kubernetes Service (AKS) customers using a Follow-the-Sun operational model.",
+        "Diagnosed AKS issues involving Linux nodes, Kubernetes control-plane behavior, CNI/Kubenet networking, DNS, RBAC, storage mounts, and Azure virtual machines.",
+        "Used Kusto Query Language (KQL), Microsoft internal observability tools, ticketing workflows, and monitoring signals to investigate customer-impacting incidents.",
+        "Worked with Azure Sentinel, Microsoft Firewall, Microsoft 365 ticket management, Azure networking, and platform telemetry to support AKS product reliability and customer resolution."
+      ],
+      "tools": [
+        "AKS",
+        "Kubernetes",
+        "Azure VM",
+        "Linux Nodes",
+        "CNI",
+        "Kubenet",
+        "DNS",
+        "RBAC",
+        "Azure Files",
+        "Blob Storage",
+        "Sentinel",
+        "Microsoft Firewall",
+        "Microsoft 365 Ticketing",
+        "Kusto Query / KQL",
+        "Internal Observability Tools"
+      ]
+    },
+    {
+      "period": "Aug 2022 - Jul 2023",
+      "role": "Linux Systems Engineer (N3 / Enterprise Support)",
+      "company": "Tata Consultancy Services (TCS)",
+      "location": "Rio de Janeiro, Brazil",
+      "mode": "Enterprise Support",
+      "description": [
+        "Provided on-site support for South32 office users, from N1 to N3 and VIP users, under a third-party contract.",
+        "Handled IT equipment assembly, dock stations, video conference rooms, rack arrangement, HP servers, and Cisco switches.",
+        "Supported vertical and horizontal server upgrades on-premise, monitored the CPD room, and negotiated data link requirements with the local operator."
+      ]
+    },
+    {
+      "period": "May 2022 - Aug 2022",
+      "role": "Linux Systems Administrator",
+      "company": "Roma Mobili",
+      "location": "Rio de Janeiro, Brazil",
+      "mode": "IT Operations",
+      "description": [
+        "Implemented IT processes including ITIL practices, ticket handling, inventory, and asset management.",
+        "Used GLPI, RustDesk, PfSense, Windows Server 2019, Google Drive, Google Docs, and backup scripts for IT deployment and operations."
+      ]
+    },
+    {
+      "period": "Sep 2015 - Mar 2018",
+      "role": "Linux System Administrator",
+      "company": "INCONNET - Projects: Unilever, SITA, British Airways, American Airlines",
+      "location": "Rio de Janeiro, Brazil",
+      "mode": "Infrastructure Support",
+      "description": [
+        "Maintained HP backup servers, data links, and routers.",
+        "Answered service calls in Rio de Janeiro and provided outsourced support services for Unilever."
+      ]
+    },
+    {
+      "period": "Jan 2014 - Feb 2015",
+      "role": "Support Engineering / Troubleshooter",
+      "company": "CTIS - Project: BNDES Brazilian Bank",
+      "location": "Rio de Janeiro, Brazil",
+      "mode": "N3 Support",
+      "description": [
+        "Provided Level 3 service for advanced users and programmers.",
+        "Installed and configured corporate software such as SAP BI, IBM Lotus Notes, Java SDK, and related tools.",
+        "Troubleshot Level 1 and Level 2 escalated tickets and supported corporate BlackBerry users."
+      ]
+    },
+    {
+      "period": "Nov 2012 - Dec 2013",
+      "role": "Support Analyst N2",
+      "company": "CTIS - Project: BNDES Brazilian Bank",
+      "location": "Rio de Janeiro, Brazil",
+      "mode": "N2 Support",
+      "description": [
+        "Worked as a micro-informatics support technician for enterprise users.",
+        "Performed banking software installation, remote support for Level 1 and Level 2 users, and configuration of equipment such as switches, routers, and servers."
+      ]
+    },
+    {
+      "period": "Feb 2008 - Dec 2010",
+      "role": "Support Analyst N2",
+      "company": "TRACTUS",
+      "location": "Rio de Janeiro, Brazil",
+      "mode": "N1-N3 Support",
+      "description": [
+        "Provided on-site support from N1 to N3.",
+        "Worked with Windows administration, cloud administration, network administration, security cameras, Windows system migrations, Microsoft Office support, and surveillance camera systems."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ATM - Atomy Tools Modules",
+      "description": "A modular Linux CLI installer for development tools, focused on portable environments, automation, and developer workflow setup.",
+      "stack": [
+        "Bash",
+        "Linux",
+        "CLI",
+        "Automation"
+      ],
+      "url": "https://github.com/atomycloud/atm",
+      "icon": "terminal"
+    },
+    {
+      "name": "Clicke.Me",
+      "description": "A marketing wizard, all-in-one.",
+      "stack": [
+        "PHP",
+        "MySQL",
+        "API",
+        "A.I"
+      ],
+      "url": "https://clicke.me",
+      "icon": "web"
+    },
+    {
+      "name": "InfoDica",
+      "description": "MarketPlace Store",
+      "stack": [
+        "PHP",
+        "MySQL",
+        "API",
+        "A.I"
+      ],
+      "url": "https://infodica.com",
+      "icon": "web"
+    },
+    {
+      "name": "TimeCoin",
+      "description": "A custom cryptocurrency architecture exploring time-based issuance, auditable ledger design, and Proof-of-Space-Time concepts.",
+      "stack": [
+        "Go",
+        "Blockchain",
+        "BadgerDB",
+        "Cryptography"
+      ],
+      "url": "",
+      "icon": "clock"
+    },
+    {
+      "name": "Homelab Infrastructure",
+      "description": "Personal Proxmox-based infrastructure with Docker services, Traefik reverse proxy, Cloudflare integration, and local virtualization.",
+      "stack": [
+        "Proxmox",
+        "Docker",
+        "Traefik",
+        "Cloudflare"
+      ],
+      "url": "",
+      "icon": "server"
+    },
+    {
+      "name": "Local AI Assistant Architecture",
+      "description": "Self-hosted AI workflow concept using local LLMs, WhatsApp integration, access control, and local database infrastructure.",
+      "stack": [
+        "Ollama",
+        "n8n",
+        "PostgreSQL",
+        "Automation"
+      ],
+      "url": "",
+      "icon": "ai"
+    }
+  ],
+  "skills": {
+    "Linux & Systems": [
+      "Linux Servers",
+      "CentOS",
+      "AlmaLinux",
+      "Rocky Linux",
+      "Ubuntu",
+      "Debian",
+      "RHEL concepts",
+      "Bash",
+      "Shell Scripting"
+    ],
+    "Cloud & Infrastructure as Code": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Terraform",
+      "EKS",
+      "AKS",
+      "EC2",
+      "S3",
+      "VPC",
+      "Bastion Hosts"
+    ],
+    "Containers & Orchestration": [
+      "Kubernetes",
+      "Docker",
+      "Docker Swarm",
+      "Helm",
+      "AKS Troubleshooting",
+      "EKS Infrastructure"
+    ],
+    "CI/CD & Source Control": [
+      "Jenkins",
+      "Azure DevOps",
+      "GitHub Actions",
+      "GitLab CI/CD",
+      "GitHub",
+      "GitLab",
+      "AWS AWS CodeCommit",
+      "GitHub Pages"
+    ],
+    "Web, Middleware & Edge": [
+      "HAProxy",
+      "Nginx",
+      "Apache HTTPD",
+      "Tomcat",
+      "PHP-FPM",
+      "LiteSpeed",
+      "Cloudflare",
+      "CDN",
+      "HTTP/HTTPS"
+    ],
+    "Databases & Storage": [
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL",
+      "Redis",
+      "Azure Files",
+      "Blob Storage",
+      "NFS",
+      "SMB"
+    ],
+    "Observability & Logging": [
+      "Datadog",
+      "Prometheus",
+      "Grafana",
+      "Kibana",
+      "Elastic Stack",
+      "Elasticsearch",
+      "OpenSearch",
+      "Kusto Query / KQL",
+      "Azure Sentinel"
+    ],
+    "Networking & Security": [
+      "DNS",
+      "TCP/IP",
+      "SSL/TLS",
+      "SSH",
+      "WAF",
+      "Cloudflare WAF",
+      "PfSense",
+      "IPtables",
+      "RBAC",
+      "Firewall Administration"
+    ]
+  },
+  "education": [
+    {
+      "name": "System Information Technology",
+      "issuer": "Higher Education - Brazil",
+      "period": "2015 - 2018"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+      "issuer": "Microsoft",
+      "period": "2023"
+    },
+    {
+      "name": "Docker Mastery: Containers, Swarm, Dockerfile",
+      "issuer": "Udemy",
+      "period": "2022"
+    },
+    {
+      "name": "Git & GitHub Bootcamp",
+      "issuer": "Udemy",
+      "period": "2022"
+    },
+    {
+      "name": "PfSense: OpenSource Firewall Administration",
+      "issuer": "Udemy",
+      "period": "2022"
+    },
+    {
+      "name": "Kubernetes Management",
+      "issuer": "Udemy",
+      "period": "2018"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Portuguese",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "B2 - listening, reading, spoken production, spoken interaction, writing"
+    },
+    {
+      "name": "Spanish",
+      "level": "A1 - listening, reading, spoken production, spoken interaction, writing"
+    },
+    {
+      "name": "German",
+      "level": "A1 - listening, reading, spoken production, spoken interaction, writing"
+    }
+  ],
+  "contact": {
+    "headline": "Get in Touch",
+    "summary": "Open to DevOps, Linux, Kubernetes, cloud infrastructure, and automation opportunities.",
+    "email": "hello@philipmello.dev",
+    "location": "Sintra, Portugal",
+    "copyright": "© 2026 Philip Mello. All rights reserved."
+  },
+  "technologies": [
+    "Linux",
+    "Bash",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Terraform",
+    "Kubernetes",
+    "AKS",
+    "EKS",
+    "Docker",
+    "Docker Swarm",
+    "Helm",
+    "Jenkins",
+    "Azure DevOps",
+    "GitHub Actions",
+    "GitLab CI/CD",
+    "AWS AWS CodeCommit",
+    "GitHub Pages",
+    "HAProxy",
+    "Nginx",
+    "Apache HTTPD",
+    "Tomcat",
+    "PHP-FPM",
+    "LiteSpeed",
+    "Cloudflare",
+    "Cloudflare WAF",
+    "CDN",
+    "Datadog",
+    "Prometheus",
+    "Grafana",
+    "Kibana",
+    "Elastic Stack",
+    "Elasticsearch",
+    "OpenSearch",
+    "Kusto Query Language",
+    "Azure Sentinel",
+    "PostgreSQL",
+    "MongoDB",
+    "MySQL",
+    "Redis",
+    "Azure Files",
+    "Blob Storage",
+    "NFS",
+    "SMB",
+    "DNS",
+    "TCP/IP",
+    "SSL/TLS",
+    "SSH",
+    "RBAC",
+    "VPC",
+    "Bastion",
+    "PfSense",
+    "IPtables",
+    "WAF",
+    "WordPress",
+    "Joomla",
+    "Laravel",
+    "Symfony",
+    "Nextcloud",
+    "OwnCloud",
+    "HTML5",
+    "CSS",
+    "JavaScript",
+    "cPanel",
+    "aaPanel",
+    "Citrix",
+    "Jupyter"
+  ]
+}
